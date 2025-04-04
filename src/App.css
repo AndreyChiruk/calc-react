@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  max-width: 100%;
+  width: 100%;
+  background-color:rgb(49, 49, 49);
+}
+.navigation-container{
+  max-width: 100%;
+  width: 100%;
+}
+.navigation{
+  max-width: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.navigation ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.navMenu a{
+  color: white;
+}
+.navMenuBlack a{
+  color: rgb(61, 61, 61) !important;
+}
+.SignUp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.SignUp-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.SignUp-card input[type="text"],
+.SignUp-card input[type="email"],
+.SignUp-card input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.SignUp-card input[type="text"]:focus,
+.SignUp-card input[type="email"]:focus,
+.SignUp-card input[type="password"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+.SignUp-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.SignUp-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.SignUp-card button:hover {
+  background-color: #3a7bc8;
+}
+.title{
+  text-align: center;
+}
+
+.SignIn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.SignIn-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.SignIn-card input[type="text"],
+.SignIn-card input[type="email"],
+.SignIn-card input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.SignIn-card input[type="text"]:focus,
+.SignIn-card input[type="email"]:focus,
+.SignIn-card input[type="password"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.SignIn-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.SignIn-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.SignIn-card button:hover {
+  background-color: #3a7bc8;
+}
+
+.SignIn-card .forgot-password {
+  display: block;
+  text-align: right;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  color: #4a90e2;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.SignIn-card .forgot-password:hover {
+  text-decoration: underline;
+}
+
+
+.ResetPassword-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+
+.ResetPassword-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.ResetPassword-card .title {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.ResetPassword-card input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.ResetPassword-card input[type="email"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.ResetPassword-card label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.ResetPassword-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.ResetPassword-card button:hover {
+  background-color: #3a7bc8;
+}
+
+.ResetPassword-card .helper-text {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.abs{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+button{
+  cursor: pointer;
+}
+textarea{
+  width: 100%;
+  resize: none;
+}
+.container{
+  width: max-content;
+  border-radius: 5px;
+  padding: 14px;
+  background-color: rgb(36, 36, 36);
+}
+.container-day{
+  background-color: rgb(163, 163, 163);
+}
+.btn-theme{
+  border-radius: 5px;
+  padding: 14px;
+  background-color: rgb(247, 134, 53);
+  color: white;
+}
+.btn-theme-day{
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(61, 61, 61);
+}
+.body-day{
+  background-color: white !important;
+}
+.operationBtn, .numberBtn{
+  color: white;
+  width: 50px;
+  height: 50px;   
+}
+.operationBtn{
+  background-color: rgb(247, 134, 53);
+  border: 1px solid black;
+}
+.operationBtn-day{
+  background-color: rgb(193, 199, 255);
+  color: black;
+  border: 1px solid rgb(116, 116, 116);
+}
+.numberBtn{
+  background-color: rgb(165, 165, 165);
+  border: 1px solid black;
+}
+.numberBtn-day{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid rgb(116, 116, 116);
+}
+
+.userInput{
+  padding: 5px 5px;
+  border-radius: 4px;
+  border: 1px solid rgb(168, 168, 168);
+}
+.scroll-top-button{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.red-border{
+  border: 2px solid rgb(234, 70, 70) !important;
+}
